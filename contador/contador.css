@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(0, 0, 0);
+   
+}
+h1{
+    color: aliceblue;
+}
+
+/*contador js*/
+#clock{
+
+    font-size: 3vh;
+    text-align: center;
+    color: rgb(7, 7, 7);
+    margin-top: 10vh;
+}
+
+/*animation with the div*/
+div {
+       
+    width: 50%;
+    height: 100%;
+    background: rgb(96, 96, 96);
+    transition: width 2s;
+    transition: 3s;   
+
+  }
+  
+div:hover, #clock:hover {
+  width: 100%;
+  font-size: 10vh;
+  transition: 2s;
+  color: orange;
+  background-color: black;
+
+}
+
+div:hover{
+    -ms-transform: rotate(10deg); /* IE 9 */
+    transform: rotate(10deg);
+}
